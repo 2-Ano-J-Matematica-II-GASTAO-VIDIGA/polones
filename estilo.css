@@ -4,16 +4,6 @@ body {
 
 }
 
-.quadrado{
-  width: 680px;
-  height: 650px;
-  background: linear-gradient(to right, #cee9be, #9bc383);
-  border-top-left-radius: 80px;
-  position: relative;
-  right: -1190px;
-  bottom: -280px;
-}
-
 
 h1 {
   font-family:arial;
@@ -24,9 +14,12 @@ h1 {
   
 }
 h2{
+  font-family:arial;
+  text-align: left;
   font-size: 30px;
-  font-family: arial;
   color: white;
+  padding-top: 70px;
+  
   
 
 }
@@ -36,14 +29,16 @@ h3{
   font-family: arial;
   color: white;
 }
-h4{
+
+h4 {
+  font-family:arial;
   text-align: left;
   font-size: 30px;
-  font-weight:100;
-  font-size-adjust:auto;
-  font-family: arial;
   color: white;
+  padding-top: 70px;
+
 }
+
 h5{
   text-align: left;
   text-align: justify;
@@ -53,7 +48,7 @@ h5{
   font-family: arial;
   color: white;
 }
-p{
+.Sobre{
   width: 50%;
   min-width: 200px;
   float: left;
@@ -68,24 +63,28 @@ p{
 
 
 .beneficos{
+  width: 50%;
+  min-width: 200px;
+  float: left;
   text-align: left;
+  font-size: 20px;
+  font-style: normal;
   font-family: arial;
   color: white;
+  padding-left: 20px;
+  
   
 }
 .Receita{
-  font-family: arial;
+  width: 50%;
+  min-width: 200px;
+  float: left;
   text-align: left;
-  font-style: normal;
-  color: white;
- 
-}
-.Modo{
-  text-align: left;
+  font-size: 20px;
   font-style: normal;
   font-family: arial;
   color: white;
-
+  padding-left: 20px;
 }
 
 .menuPrincipal{
@@ -128,38 +127,33 @@ li a:hover {
   background: black;
 }
 
-#Bacate {
-   width: 50%;
+.pag0 {
+  position: relative;
+  display: flex;
+  width: 700px;
+  height: 650px;
+  left: 1100px;
+  bottom: -170px;
 }
 
-.caixaBacate3 {
-  
-  position: absolute;
-  top: 300px;
-  right: 400px;
-  width: 300px;
-  height: 250px;
+.pag1 {
+  position: relative;
   display: flex;
-  justify-content: center;
+  width: 700px;
+  height: 650px;
+  right: 10px;
+  bottom: 20px;
 }
-.caixaAbacate{
-  position: absolute;
-  top: 150px;
-  right: 300px;
-  width: 300px;
-  height: 250px;
+
+.pag2 {
+  position: relative;
   display: flex;
-  justify-content: center;
+  width: 800px;
+  height: 750px;
+  right: -150px;
+  bottom: 210px;
 }
-.caixaVitamina{
-  position: absolute;
-  top: 150px;
-  right: 320px;
-  width: 300px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-}
+
 .rodape {
 position: absolute;
 bottom: 0;
@@ -170,27 +164,6 @@ color: white;
 display: flex;
 justify-content: center;
 border-top-right-radius: 80px;
-}
-.rodape2{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 45px;
-  background:#96cb60;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-.rodape3{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 45px;
-  background:#96cb60;
-  color:white;
-  display: flex;
-  justify-content: center;
-
 }
 
 .conteudo {
